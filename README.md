@@ -5,7 +5,7 @@ This guide details the process of implementing an on-premises Active Directory s
 _ _ _ 
 
 ## Enviroments and Technologies used 
-A) Microsoft Azure ( Virtual Machines / Computer ) 
-B) Remote Desktop 
-C) Active Directory Domain Services 
-D) Powershell
+- Microsoft Azure ( Virtual Machines / Computer )
+-  Remote Desktop
+-  Active Directory Domain Services
+-  Powershell
