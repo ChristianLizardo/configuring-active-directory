@@ -22,4 +22,4 @@ This guide details the process of implementing an on-premises Active Directory s
 6. Setup RDP for non administrative users on client -1
 7. Create a manual additional users and attempt to sign in into client-1 with one of the users
 
-##Deployment and Configuration steps 
+## Deployment and Configuration steps 
