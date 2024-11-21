@@ -129,7 +129,7 @@ Insert Image
 ## Login to DC-1 as jane_admin
 
 1. Open PowerShell_ise as admin
-2. Create a new file and paste the contents of the script (https://github.com/agruezo/configure-active-directory/blob/script/createUsers.ps1) into it:
+2. Create a new file and paste the contents of the script (https://github.com/christianlizardo/configuring-active-directory/blob/script/createUsers.ps1) into it:
 
 Insert Image
 
