@@ -1,5 +1,5 @@
 # configuring-active-directory
-! [Alt Text](https://ibb.co/hYZRm5X) 
+
 ## Description
 This guide details the process of implementing an on-premises Active Directory setup using Azure Virtual Machines.
 
@@ -23,3 +23,5 @@ This guide details the process of implementing an on-premises Active Directory s
 7. Create a manual additional users and attempt to sign in into client-1 with one of the users
 
 ## Deployment and Configuration steps 
+
+- Setup Resources
