@@ -1,5 +1,5 @@
 # configuring-active-directory
-![Project Logo or Banner](https://ibb.co/hYZRm5X) <!-- Optional: Add a logo or banner image -->
+! [Alt Text](https://ibb.co/hYZRm5X) 
 ## Description
 This guide details the process of implementing an on-premises Active Directory setup using Azure Virtual Machines.
 
