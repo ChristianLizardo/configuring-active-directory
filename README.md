@@ -24,4 +24,4 @@ This guide details the process of implementing an on-premises Active Directory s
 
 ## Deployment and Configuration steps 
 
-- Setup Resources
+<h1 align="center"> Setup Resources </h1>
