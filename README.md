@@ -24,4 +24,6 @@ This guide details the process of implementing an on-premises Active Directory s
 
 ## Deployment and Configuration steps 
 
-<h1 align="center"> Setup Resources </h1>
+<h1 align="center"> Setup Resources in Azure </h1>
+
+## Step 1: Create Domain Controller VM ( Windows Server 2022 ) titled , "DC-1"
