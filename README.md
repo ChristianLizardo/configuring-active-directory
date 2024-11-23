@@ -111,7 +111,7 @@ This guide details the process of implementing an on-premises Active Directory s
 
 Create a new Organizational Unit (OU) named "_CLIENTS" and move Client-1 into this OU.
 
-
+![IMG_1434 (1)](https://github.com/user-attachments/assets/aed8db9b-161a-4ea6-95f9-ab86cdc731e5)
 
 <h1 align="center"> Setup RDP for Non - Admin users on Client-1  </h1>
 
@@ -123,7 +123,7 @@ Create a new Organizational Unit (OU) named "_CLIENTS" and move Client-1 into th
 
 Note: In a real-world scenario, this configuration is typically managed using Group Policy to apply changes across multiple systems simultaneously (a potential topic for a future lab)
 
-Insert Here 
+![IMG_1435 (1)](https://github.com/user-attachments/assets/c170e11f-8521-4aa6-b24f-15db7169354b)
 
 <h1 align="center"> Create a list of users and attempt to login to client-1 with one of the users </h1>
 
@@ -132,19 +132,20 @@ Insert Here
 1. Open PowerShell_ise as admin
 2. Create a new file and paste the contents of the script (https://github.com/christianlizardo/configuring-active-directory/blob/script/createUsers.ps1) into it:
 
-Insert Here 
+![IMG_1436 (1)](https://github.com/user-attachments/assets/2f9e6970-fa11-4731-964a-6edcc3f6915b)
 
 3. Run the Script and observe the accounts being created
 
-Insert Here
+![IMG_1437 (1)](https://github.com/user-attachments/assets/0b1dad98-8b1c-4a20-9cf6-747d5505c053)
 
 4. Once completed, open Active Directory Users and Computers (ADUC) to verify the accounts are located in the appropriate Organizational Unit (OU). Then, use one of the accounts to attempt logging into Client-1 (ensure you have the password from the script for this step).
 
-Insert Here
+![IMG_1438 (1)](https://github.com/user-attachments/assets/2941ff46-5735-4544-be61-509c0cd6a27d)
 
-Insert HEre
 
-Insert Here 
+![IMG_1439 (1)](https://github.com/user-attachments/assets/15479ee9-b2f5-4bb4-bc92-bf79d6a9feef)
+
+![IMG_1440 (1)](https://github.com/user-attachments/assets/e40f26c8-5248-44b1-b663-e42749ed1d81)
 
 ## I hope this tutorial provided valuable insights into network security protocols and allowed you to observe traffic between virtual machines. While I ran this on a MacBook Air, it can just as easily be done on a PC without needing to download a remote desktop app, as Windows includes that functionality by default.
 
