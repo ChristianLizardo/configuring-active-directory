@@ -42,7 +42,7 @@ This guide details the process of implementing an on-premises Active Directory s
 
 ## Step 4 : Check that both virtual machines are in the same Vnet ( Tip :  Check network topology with the Network watcher ) 
 
-Insert Image Here 
+![IMG_1419 (2)](https://github.com/user-attachments/assets/44a6f7d3-cece-43db-b685-5dec68143b6c)
 
 <h1 align="center">Check Connectivity between the client and DC</h1>
 
