@@ -28,9 +28,9 @@ This guide details the process of implementing an on-premises Active Directory s
 
 ## Step 1: Create Domain Controller VM ( Windows Server 2022 ) titled , "DC-1"
 
-Insert Image Here 
+![IMG_1414 (1)](https://github.com/user-attachments/assets/077421d1-d57c-4f18-a3ed-bdbc02e301de)
 
-Insert Image Here 
+![IMG_1415 (1)](https://github.com/user-attachments/assets/5e0afe8e-1f99-4f4f-8cc6-2684b78f8543) 
 
 ## Step 2 : Creare the client VM ( Windows 10 ) named , "Client-1" . You must use the same resource group and Vnet that was created in step 1 . 
 
