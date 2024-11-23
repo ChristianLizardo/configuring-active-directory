@@ -48,70 +48,70 @@ This guide details the process of implementing an on-premises Active Directory s
 
 ## Step 1 : Sign into Client- 1 with remote desktop and Ping DC-1's Private IP address with ping -t ( Perpetual ping ):
 
-Insert Image Here 
+![IMG_1420 (1)](https://github.com/user-attachments/assets/debb9836-d811-4a80-b3d6-863f7a1fbb15)
 
 ## Step 2 : Login to the DC and enable ICMPV4 into the local firewall 
 
-Insert Image Here 
+![IMG_1421 (1)](https://github.com/user-attachments/assets/258dfe10-18d7-4395-ad24-f1b51eacf9da)
 
 ## Step 3 : Validate client-1 ping , if it was successful
 
-Insert Image Here 
+![IMG_1422 (1)](https://github.com/user-attachments/assets/0bcfb678-44c6-449b-9814-bac5a05e2eb5)
 
 
 <h1 align="center"> Install Active Directory </h1>
 
 ## Step 1 : login to "DC-1" and install Active Directory Services 
 
-Insert Image Here 
+![IMG_1423 (1)](https://github.com/user-attachments/assets/376b9882-9394-45a0-a176-01fdaa780abd) 
 
 ## Step 2 : Promote as a Domain Controller
 
-Inseer Image Here 
+![IMG_1424 (1)](https://github.com/user-attachments/assets/3e9c872a-0732-4889-95f7-1a81daf998b2)
 
 ## Step 3 : Setup a new forest as myactivedirectory.com 
 
-Insert Here 
+![IMG_1425 (1)](https://github.com/user-attachments/assets/5978bd44-e4a1-4716-a89d-b06af3051df2)
 
 ## step 4 : Reboot and then sign back on into DC-1  as a user this time . User: myadproject.com\labuser
 
-Insert Here 
+![IMG_1426 (1)](https://github.com/user-attachments/assets/0da5c8a7-32e0-403b-b495-446197a0f83b)
 
 <h1 align="center"> Create an AD Admin and normal user  </h1>
 
 ## Step 1 : In AD , go TO ADUC -> create an organizational unit -> called "__EMPLOYEES" and another one called "__ADMINS"
 
-Insert Here
+![IMG_1427 (1)](https://github.com/user-attachments/assets/1248965e-3936-44ce-aaa1-c60ddcfe7121)
 
-Insert Here 
+![IMG_1428 (1)](https://github.com/user-attachments/assets/21385df3-8937-414c-9d76-187458900001)
 
 ## Step 2 : Create a new employee named "Jane Doe " with the user name of "jane_admin"
 
-Insert Here 
+![IMG_1429 (1)](https://github.com/user-attachments/assets/75b79764-0637-4c21-9bc8-c3e30d477b39)
 
 ## Step 3 : Add "jane_admin" to the "Domain Admins" Security Group 
 
-Insert Here 
+![IMG_1430 (1)](https://github.com/user-attachments/assets/55d2cb8b-9488-4cdb-bcba-6c3bc0913d42)
 
 ## Step 4 : Log out and exit the RDP connection to DC - 1 and sign back on as "myadproject.com\jane_admin". Use this account for admin purposes going forward
 
-Insert Here
+![IMG_1431 (1)](https://github.com/user-attachments/assets/4bc92b77-204e-4a1a-8fd1-3eef045f2662)
 
 <h1 align="center"> Join client-1 to your domain (myadproject.com) </h1>
 
 ## Step 1 : At the Azure Portal , change Client-1 's DNS Settings to the DC 's Private IP Adress
 
-Insert Here 
+![IMG_1432 (1)](https://github.com/user-attachments/assets/29c3e045-ae44-4be2-8d4d-1bcadb33ba9c)
 
 ## Step 2 : From the Azure Portal , Login to client - 1 ( RDP ) to the original local admin (labuser ) and collaborate it to the domain ( Computer will reboot ) 
 
-![IMG_1431](https://github.com/user-attachments/assets/3020e37a-dd8e-4be1-a6b8-96a94dae97c6)
+![IMG_1433 (1)](https://github.com/user-attachments/assets/83a7fcd2-f27a-4273-80d2-b910aae7d2a7)
 
 ## Step 3 : Access the Domain Controller via Remote Desktop and confirm that Client-1 appears in the Active Directory Users and Computers (ADUC) under the default "Computers" container at the root of the domain.
 
 Create a new Organizational Unit (OU) named "_CLIENTS" and move Client-1 into this OU.
 
-Insert Here
+
 
 <h1 align="center"> Setup RDP for Non - Admin users on Client-1  </h1>
 
