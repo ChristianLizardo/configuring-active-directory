@@ -1,6 +1,6 @@
 # configuring-active-directory
 
-<h1 align="center"> ![download-1](https://github.com/user-attachments/assets/57fe2ce0-8175-4d95-9308-b5ed0806ee69) </h1>
+<h1 align="center">  ![download-1](https://github.com/user-attachments/assets/57fe2ce0-8175-4d95-9308-b5ed0806ee69)  </h1>
 
 ## Description
 This guide details the process of implementing an on-premises Active Directory setup using Azure Virtual Machines.
