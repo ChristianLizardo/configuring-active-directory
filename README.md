@@ -1,4 +1,4 @@
-# configuring-active-directory
+<h1 align="center"> Configuring Active Directory  </h1>
 
  ![download-1](https://github.com/user-attachments/assets/57fe2ce0-8175-4d95-9308-b5ed0806ee69) 
 
